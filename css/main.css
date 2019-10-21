@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia sans-serif;
+  font-family: Georgia, sans-serif;
   line-height: 1.5;
   background-color: #f0eee8;
 }
@@ -20,21 +20,23 @@ html {
   border-radius: 3px;
 }
 
-h2 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   color: #512200;
+  margin: 0 0 1rem;
 }
 
-dl {
+.link-card dl {
   list-style-type: none;
   padding: 0 0 1em;
   border-bottom: 2px #9a816d solid;
+  font-size: .875rem;
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   padding: 0 0 1em;
   border-bottom: 2px #9a816d solid;
 }
@@ -42,13 +44,11 @@ p {
 .link-card dt {
   display: inline-block;
   width: 8.5em;
-  font-size: .875rem;
 }
 
 .link-card dd {
   display: inline-block;
   margin: 0;
-  font-size: .875rem;
 }
 
 .btn-wrap {
@@ -64,4 +64,13 @@ p {
   color: #f0eee8;
   font-family: Dosis, sans-serif;
   text-align: center;
+  font-size: 1.125rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn-wrap {
+  background-color: #512200;
 }
