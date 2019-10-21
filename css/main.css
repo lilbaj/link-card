@@ -1,7 +1,31 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia sans-serif;
+  line-height: 1.5;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.link-card {
+  display: block;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #dcd4cd;
+  color: #512200;
+  border: 3px #9a816d solid;
+  border-radius: 3px;
+}
+
+h2 {
+  font-family: Dosis, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #512200;
+}
+
+ul {
+  list-style-type: none;
 }
